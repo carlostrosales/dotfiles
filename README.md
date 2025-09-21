@@ -4,9 +4,9 @@ My Unix dotfiles. Contains my setup for Bash, Neovim, tmux, along with aliases a
 ## about this project
 I am here because I went through a rabbit hole of personalizing your system.
 
-It started with the elitist "neovim" setup and configuring lua files, then learning about streamliningyour development environment to reduce friction, progressed to "aliases", learning a bit about the Linux file system and why it reigns superior, now I'm here... deep in the terminal. configuring my dotfiles.
+It started with the elitist "neovim" setup and configuring lua files, then learning about streamlining your development environment to reduce friction, progressed to "aliases", learning a bit about the Linux file system and why it reigns superior, now I'm here... deep in the terminal. configuring my dotfiles.
 
-I now see the importance and am able to switch between different environments rather that is a new computer, or spinning up a virtual machine  I usually use a UNIX-like system rather that is macOS, linux,or when I am given a windows system I will use WSL with Ubuntu. Now wherever I go, with this repository and a few commands I can bootstrap my environment anywhere.
+I now see the importance and am able to switch between different environments rather that is a new computer, or spinning up a virtual machine. I usually use a UNIX-like system rather that is macOS, linux, or when I am given a windows system I will use WSL with Ubuntu. Now wherever I go, with this repository and a few commands I can bootstrap my environment anywhere.
 
 ## key components
 
