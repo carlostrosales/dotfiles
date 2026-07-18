@@ -3,13 +3,13 @@ for file in ~/dotfiles/common/*.sh; do
     [ -r "$file" ] && source "$file"
 done
 
-echo "[dotfiles] .bashrc loaded"
+# echo "[dotfiles] .bashrc loaded"
 
 shopt -s expand_aliases  # ensure aliases expand in all shells
 
 # Load aliases if available
 if [ -f ~/.aliases ]; then
-	echo "[dotfiles] loading aliases"
+	# echo "[dotfiles] loading aliases"
 	source ~/.aliases
 fi
 
@@ -29,3 +29,7 @@ else
 	echo "Welcome to $(uname -s), $USER!"
 	echo "Today is $(date)"
 fi
+
+# opencode
+export PATH=/Users/carlosrosales/.opencode/bin:$PATH
+export PATH="$HOME/.opencode/bin:$PATH"

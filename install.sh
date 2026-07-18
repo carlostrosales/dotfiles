@@ -2,7 +2,7 @@
 set -e
 
 # Define dotfiles root
-DOTFILES=$HOME/dotfiles
+DOTFILES=$HOME/.dotfiles
 
 # Detect operating system
 echo "Bootstrapping environment..."
@@ -57,9 +57,8 @@ link_file "$DOTFILES/common/.aliases.sh" "$HOME/.aliases"
 link_file "$DOTFILES/git/.gitconfig" "$HOME/.gitconfig"
 link_file "$DOTFILES/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
-# --- Neovim config ---
-mkdir -p ~/.config
-link_file "$DOTFILES/.nvim" "$HOME/.config/nvim"
+# Neovim, wezterm, herdr, and the AI-agent configs under home/ are managed
+# by home-manager (see home.nix), so they are not symlinked here.
 
 echo "Setup complete! Restart your shell."
 

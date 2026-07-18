@@ -1,0 +1,4 @@
+# herdr runtime state and logs - not config
+*.log
+session.json
+release-notes.json
